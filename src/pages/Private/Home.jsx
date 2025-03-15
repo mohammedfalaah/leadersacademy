@@ -124,9 +124,9 @@ function Home() {
               <p className="desc mb-25">
               At Leaders Advanced Studies, we believe that education is the foundation of a brighter future. Our mission is to provide high-quality, accessible, and engaging learning experiences to students worldwide. With expert instructors and interactive online courses, we empower students to excel in English, Arabic, Malayalam, Hindi, and Mathematics.              </p>
             </div>
-            <div className="btn-part">
+            {/* <div className="btn-part">
               <a className="readon banner-style uppercase" href="#">Read More</a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -149,9 +149,9 @@ function Home() {
             <div className="desc pr-30">
             Leaders Advanced Studies is an innovative e-learning platform dedicated to helping students achieve academic success. We provide a structured, interactive, and engaging learning environment, designed to meet the needs of students across different educational levels. Our courses are led by experienced educators who focus on building strong foundational skills and confidence in learners.</div>
           </div>
-          <div className="btn-part wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms">
+          {/* <div className="btn-part wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms">
             <a className="readon2" href="#">Read More</a>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="col-lg-6">
