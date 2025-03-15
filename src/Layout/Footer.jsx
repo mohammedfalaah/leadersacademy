@@ -71,10 +71,8 @@ function Footer() {
             <div className="col-lg-4 text-right md-text-left">
               <ul className="footer-social">
                 <li><a href="#"><i className="fa fa-facebook" /></a></li>
-                <li><a href="#"><i className="fa fa-twitter" /></a></li>
                 <li><a href="#"><i className="fa fa-instagram" /></a></li>
-                <li><a href="#"><i className="fa fa-google-plus" /></a></li>
-                <li><a href="#"><i className="fa fa-pinterest-p" /></a></li>
+              
               </ul>
             </div>
           </div>
