@@ -65,7 +65,7 @@ function Footer() {
             </div>
             <div className="col-lg-4 md-mb-20">
               <div className="copyright text-center md-text-left">
-                <p>© 2025 All Rights Reserved. Developed By <a href="">Hikendots</a></p>
+                <p>© 2025 All Rights Reserved.</p>
               </div>
             </div>
             <div className="col-lg-4 text-right md-text-left">
