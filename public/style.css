@@ -15190,15 +15190,16 @@ body .modal-backdrop {
 
 
 .video-img {
-  width: 100%; /* Make it adapt to container width */
-  max-width: 640px; /* Limit max width for larger screens */
-  height: auto; /* Maintain aspect ratio */
+  width: 100%; 
+  max-width: 640px;
+  height: 50rem; 
   display: block;
-  margin: 0 auto; /* Center video */
+  margin: 0 auto; 
 }
+
 
 @media (max-width: 768px) {
   .video-img {
-    max-width: 100%; /* Take full width on smaller screens */
+    max-width: 100%; 
   }
 }
