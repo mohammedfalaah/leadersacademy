@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import TestimonialCarousel from './TestimonialCarousel'
 import WhatsappChat from './WhatsappChat'
+import { useRef } from "react";
 
 function Home() {
   // const [formData, setFormData] = useState({
@@ -60,6 +61,14 @@ function Home() {
         alert(data); // Show success message
     })
     .catch(error => console.error("Error:", error));
+};
+const videoRef = useRef(null);
+
+const playVideo = (e) => {
+  e.preventDefault(); // Prevents default action of anchor tag
+  if (videoRef.current) {
+    videoRef.current.play();
+  }
 };
 
   return (
@@ -156,14 +165,18 @@ function Home() {
       </div>
       <div className="col-lg-6">
       <div className="img-part media-icon">
-          <img className="video-img" src="assets/images/about/about-video-bg2.png" alt="Video Image" />
-          <a className="popup-videos" href="https://www.youtube.com/watch?v=atMUy_bPoQI">
-            <i className="fa fa-play" />
-          </a>
-          <img className="dot-shape js-tilt" src="assets/images/about/dot-shape.png" alt="Shape" />
-        </div>
-       
+        {/* Video Element */}
+        <video ref={videoRef} className="video-img" src="/assets/images/video 1.mp4" alt="Video Image" controls />
+
+        {/* Play Button */}
+        <a className="popup-videos" href="#" onClick={playVideo}>
+          <i className="fa fa-play" />
+        </a>
+
+        {/* Additional Image */}
+        <img className="dot-shape js-tilt" src="assets/images/about/dot-shape.png" alt="Shape" />
       </div>
+    </div>
     </div>
   </div>
 </div>
