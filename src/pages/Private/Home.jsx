@@ -329,7 +329,8 @@ const playVideo = (e) => {
         <div className="choose-us-part">
           <div className="sec-title wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms">
             <h2 className="title mb-10">Why Choose Us</h2>
-            <p className=" mb-35">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi.</p>
+            <p className=" mb-35">
+            At Leaders Advanced Studies, we are committed to providing high-quality, interactive, and accessible education to help students achieve academic success. Here’s why students and parents trust us:            </p>
           </div>
           <div className="facilities-part">
             <div className="single-facility wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms">
