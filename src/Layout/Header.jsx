@@ -148,32 +148,7 @@ function Header() {
           </div>
         </div>
       </div>
-      <div className="canvas-logo">
-        <a href="index.html"><img src="assets/images/loogo.png" alt="logo" /></a>
-      </div>
-      <div className="offcanvas-text">
-        <p>We denounce with righteous indige nationality and dislike men who are so beguiled and demo  by the charms of pleasure of the moment data com so blinded by desire.</p>
-      </div>
-      <div className="offcanvas-gallery">
-        <div className="gallery-img">
-          <a className="image-popup" href="assets/images/gallery/1.jpg"><img src="assets/images/gallery/1.jpg" alt /></a>
-        </div>
-        <div className="gallery-img">
-          <a className="image-popup" href="assets/images/gallery/2.jpg"><img src="assets/images/gallery/2.jpg" alt /></a>
-        </div>
-        <div className="gallery-img">
-          <a className="image-popup" href="assets/images/gallery/3.jpg"><img src="assets/images/gallery/3.jpg" alt /></a>
-        </div>
-        <div className="gallery-img">
-          <a className="image-popup" href="assets/images/gallery/4.jpg"><img src="assets/images/gallery/4.jpg" alt /></a>
-        </div>
-        <div className="gallery-img">
-          <a className="image-popup" href="assets/images/gallery/5.jpg"><img src="assets/images/gallery/5.jpg" alt /></a>
-        </div>
-        <div className="gallery-img">
-          <a className="image-popup" href="assets/images/gallery/6.jpg"><img src="assets/images/gallery/6.jpg" alt /></a>
-        </div>
-      </div>
+    
       <div className="map-img">
   <iframe
     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7658.422402334656!2d75.95950225373397!3d11.149462354615947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba64fe708cc22cf%3A0x2f0a18220fe14513!2sLeaders%20academy!5e0!3m2!1sen!2sin!4v1741845668948!5m2!1sen!2sin"
